@@ -1,0 +1,5 @@
+{
+  "name": "AudioForge Pro",
+  "description": "A modern, high-performance audiobook and audio file merger. Features smart file queuing, format conversion (MP3/M4B), and visualized processing status.",
+  "requestFramePermissions": []
+}
