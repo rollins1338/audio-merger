@@ -28,7 +28,6 @@
 - [Usage Guide](#-usage-guide)
 - [Technical Details](#-technical-details)
 - [Development](#-development)
-- [Building from Source](#building-from-source)
 - [Troubleshooting](#-troubleshooting)
 - [Contributing](#-contributing)
 - [License](#-license)
@@ -143,7 +142,7 @@
 
 - **macOS**: `AudioForge-Pro-1.3.0.dmg`
 - **Linux**: `AudioForge-Pro-1.3.0.AppImage`
-👉 [Building from Source](#building-from-source)
+👉 [Build and Installation Guide For Mac & Linux](https://github.com/rollins1338/linuxmacguide-for-af/blob/main/README.md)
 
 ### System Requirements
 
@@ -390,33 +389,6 @@ audioforge-pro/
 - File metadata badges
 
 ---
-
-## Building from Source
-
-```bash
-npm install
-```
-
-### Build for Current Platform
-
-```bash
-npm run electron:build
-```
-
-Output: `dist/` directory
-
-### Build for Specific Platforms
-
-```bash
-# Windows
-npm run electron:build -- --win
-
-# macOS
-npm run electron:build -- --mac
-
-# Linux
-npm run electron:build -- --linux
-```
 
 ### Build Configuration
 
