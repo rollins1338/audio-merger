@@ -420,6 +420,10 @@ audioforge-pro/
 
 ## Building from Source
 
+```bash
+npm install
+```
+
 ### Build for Current Platform
 
 ```bash
