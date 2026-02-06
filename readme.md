@@ -1,42 +1,19 @@
-# 🎵 AudioForge Pro
-
 <div align="center">
 
-![AudioForge Pro Banner](https://img.shields.io/badge/AudioForge-Pro-00D9FF?style=for-the-badge&logo=audio&logoColor=white)
-![icon](https://github.com/user-attachments/assets/c845d7b0-3ee9-4b52-8f15-e40ee1b20790)
-<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="brandGradient" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#06b6d4"/> <!-- Cyan 500 -->
-      <stop offset="100%" stop-color="#0f766e"/> <!-- Teal 700 -->
-    </linearGradient>
-    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="15" stdDeviation="15" flood-color="#000000" flood-opacity="0.25"/>
-    </filter>
-  </defs>
-  
-  <!-- Background Container (Squircle) -->
-  <rect x="0" y="0" width="512" height="512" rx="120" fill="url(#brandGradient)" />
-  
-  <!-- Inner Waveform Symbol (Scaled and Centered) -->
-  <!-- Original Viewbox 24x24. Scaling by ~14x to fit 512px canvas with padding -->
-  <g transform="translate(85, 85) scale(14.25)">
-    <path d="M2 13a2 2 0 0 0 2-2V7a2 2 0 0 1 4 0v14a2 2 0 0 1 4 0V9a2 2 0 0 1 4 0v7a2 2 0 0 1 4 0v-2a2 2 0 0 0 2 2" 
-          stroke="white" 
-          stroke-width="2.5" 
-          stroke-linecap="round" 
-          stroke-linejoin="round"
-          fill="none"/>
-  </g>
-</svg>
+<img src="https://github.com/user-attachments/assets/c845d7b0-3ee9-4b52-8f15-e40ee1b20790" alt="AudioForge Pro" width="160" height="160" />
 
+# 🎵 AudioForge Pro
 
 **Professional Audio Merger & Converter for Audiobook Enthusiasts**
 
-[![Version](https://img.shields.io/badge/version-1.3.0-cyan.svg?style=flat-square)](https://github.com/rollins1338/audio-merger/releases)
+[![Version](https://img.shields.io/badge/version-1.7.0-cyan.svg?style=flat-square)](https://github.com/rollins1338/audio-merger/releases)
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](LICENSE)
+[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-8A2BE2?style=flat-square)](https://github.com/rollins1338/audio-merger/releases)
+
 [![Electron](https://img.shields.io/badge/Electron-28.0-47848F?style=flat-square&logo=electron)](https://www.electronjs.org/)
 [![React](https://img.shields.io/badge/React-18.2-61DAFB?style=flat-square&logo=react)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-4.9-3178C6?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+[![FFmpeg](https://img.shields.io/badge/FFmpeg-Powered-00D300?style=flat-square)](https://ffmpeg.org/)
 
 </div>
 
@@ -127,9 +104,31 @@
 
 ## 📸 Screenshots
 
-<img width="1192" height="470" alt="image" src="https://github.com/user-attachments/assets/3af8709b-ecaa-4582-8344-84c587e68817" />
+<div align="center">
 
-<img width="1171" height="890" alt="image" src="https://github.com/user-attachments/assets/aa16d94a-34ed-477c-a6d0-5828f2642853" />
+### Main Interface
+<img src="https://github.com/user-attachments/assets/3af8709b-ecaa-4582-8344-84c587e68817" alt="AudioForge Pro - Main Interface" width="100%" />
+
+<br/>
+
+### File Queue & Metadata View
+<img src="https://github.com/user-attachments/assets/aa16d94a-34ed-477c-a6d0-5828f2642853" alt="AudioForge Pro - Queue Management" width="100%" />
+
+</div>
+
+<details>
+<summary>🎨 <strong>View More Interface Details</strong></summary>
+
+<br/>
+
+**Key Interface Features:**
+- ⚡ **Drag & Drop Zone** - Simple file/folder uploads with visual feedback
+- 📊 **Real-time Queue** - Live metadata scanning with color-coded status
+- 🎯 **Smart Controls** - One-click format selection and bitrate adjustment  
+- 📈 **Progress Tracking** - Detailed merge progress with ETA and speed metrics
+- 🎨 **Dark Theme** - Eye-friendly interface optimized for extended sessions
+
+</details>
 
 
 ---
@@ -165,7 +164,34 @@ Download the latest release for your platform:
    - Install system FFmpeg
    - Manually select FFmpeg path
 
-### Basic Workflow
+### Quick Start Guide
+
+<table>
+<tr>
+<td width="25%" align="center">
+<img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/upload.svg" width="48" height="48" alt="Upload" />
+<h4>1️⃣ Add Files</h4>
+<p><small>Upload files, folders, or drag & drop</small></p>
+</td>
+<td width="25%" align="center">
+<img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/list.svg" width="48" height="48" alt="Review" />
+<h4>2️⃣ Review Queue</h4>
+<p><small>Check metadata & resolve conflicts</small></p>
+</td>
+<td width="25%" align="center">
+<img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/settings.svg" width="48" height="48" alt="Configure" />
+<h4>3️⃣ Configure</h4>
+<p><small>Set format, mode, & filename</small></p>
+</td>
+<td width="25%" align="center">
+<img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/zap.svg" width="48" height="48" alt="Merge" />
+<h4>4️⃣ Merge</h4>
+<p><small>Process & save your audiobook</small></p>
+</td>
+</tr>
+</table>
+
+### Detailed Workflow
 
 #### 1️⃣ Add Files
 ```
@@ -183,15 +209,37 @@ Download the latest release for your platform:
 - Resolve conflicts (sample rate mismatches)
 
 #### 3️⃣ Configure Output
-```javascript
-{
-  "Filename": "My Audiobook",      // Auto-suggested from first file
-  "Format": "M4B | MP3",           // Choose output format
-  "Merge Mode": {
-    "Stream Copy": "Fastest, lossless (recommended)",
-    "Re-Encode": "Custom bitrate (64k - 192k)"
-  }
-}
+
+<table>
+<tr>
+<th>Setting</th>
+<th>Options</th>
+<th>Recommendation</th>
+</tr>
+<tr>
+<td><strong>Format</strong></td>
+<td>MP3 / M4B</td>
+<td>M4B for chapter support</td>
+</tr>
+<tr>
+<td><strong>Merge Mode</strong></td>
+<td>Stream Copy / Re-Encode</td>
+<td>Stream Copy for speed & quality</td>
+</tr>
+<tr>
+<td><strong>Bitrate</strong></td>
+<td>64k / 96k / 128k / 192k</td>
+<td>Use only with Re-Encode mode</td>
+</tr>
+</table>
+
+**Merge Mode Comparison:**
+```
+Stream Copy         Re-Encode
+━━━━━━━━━━         ━━━━━━━━━━
+⚡ Instant          🎚️ Custom Quality
+🎯 Lossless         📉 Smaller Size
+✅ Recommended      🔧 Advanced Users
 ```
 
 #### 4️⃣ Merge
@@ -566,6 +614,7 @@ copies of the Software...
 
 - **GitHub Issues**: [Report bugs or request features](https://github.com/rollins1338/audio-merger/issues)
 - **Developer**: [@rollins1338](https://github.com/rollins1338)
+- **Email**: support@audioforge.pro *(if available)*
 
 ---
 
