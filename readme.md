@@ -127,7 +127,10 @@
 
 ## 📸 Screenshots
 
-> *Coming Soon: Add screenshots of your application here*
+<img width="1192" height="470" alt="image" src="https://github.com/user-attachments/assets/3af8709b-ecaa-4582-8344-84c587e68817" />
+
+<img width="1171" height="890" alt="image" src="https://github.com/user-attachments/assets/aa16d94a-34ed-477c-a6d0-5828f2642853" />
+
 
 ---
 
