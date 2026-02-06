@@ -135,15 +135,15 @@
 
 ## 🚀 Installation
 
-### Pre-built Releases (Recommended)
-
-Download the latest release for your platform:
+### Pre-built Releases (Only Windows Available)
 
 - **Windows**: `AudioForge-Pro-Setup-1.3.0.exe` (NSIS Installer)
-- **macOS**: `AudioForge-Pro-1.3.0.dmg`
-- **Linux**: `AudioForge-Pro-1.3.0.AppImage` or `.deb`
 
-👉 [Download Latest Release](https://github.com/rollins1338/audio-merger/releases)
+> [Download Latest Release](https://github.com/rollins1338/audio-merger/releases)
+
+- **macOS**: `AudioForge-Pro-1.3.0.dmg`
+- **Linux**: `AudioForge-Pro-1.3.0.AppImage`
+👉 [Building from Source](#building-from-source)
 
 ### System Requirements
 
@@ -163,33 +163,6 @@ Download the latest release for your platform:
    - Use bundled binaries (automatic)
    - Install system FFmpeg
    - Manually select FFmpeg path
-
-### Quick Start Guide
-
-<table>
-<tr>
-<td width="25%" align="center">
-<img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/upload.svg" width="48" height="48" alt="Upload" />
-<h4>1️⃣ Add Files</h4>
-<p><small>Upload files, folders, or drag & drop</small></p>
-</td>
-<td width="25%" align="center">
-<img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/list.svg" width="48" height="48" alt="Review" />
-<h4>2️⃣ Review Queue</h4>
-<p><small>Check metadata & resolve conflicts</small></p>
-</td>
-<td width="25%" align="center">
-<img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/settings.svg" width="48" height="48" alt="Configure" />
-<h4>3️⃣ Configure</h4>
-<p><small>Set format, mode, & filename</small></p>
-</td>
-<td width="25%" align="center">
-<img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/zap.svg" width="48" height="48" alt="Merge" />
-<h4>4️⃣ Merge</h4>
-<p><small>Process & save your audiobook</small></p>
-</td>
-</tr>
-</table>
 
 ### Detailed Workflow
 
