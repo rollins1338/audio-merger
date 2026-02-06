@@ -1,0 +1,26 @@
+
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="brandGradient" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#06b6d4"/> <!-- Cyan 500 -->
+      <stop offset="100%" stop-color="#0f766e"/> <!-- Teal 700 -->
+    </linearGradient>
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="15" stdDeviation="15" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  
+  <!-- Background Container (Squircle) -->
+  <rect x="0" y="0" width="512" height="512" rx="120" fill="url(#brandGradient)" />
+  
+  <!-- Inner Waveform Symbol (Scaled and Centered) -->
+  <!-- Original Viewbox 24x24. Scaling by ~14x to fit 512px canvas with padding -->
+  <g transform="translate(85, 85) scale(14.25)">
+    <path d="M2 13a2 2 0 0 0 2-2V7a2 2 0 0 1 4 0v14a2 2 0 0 1 4 0V9a2 2 0 0 1 4 0v7a2 2 0 0 1 4 0v-2a2 2 0 0 0 2 2" 
+          stroke="white" 
+          stroke-width="2.5" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"
+          fill="none"/>
+  </g>
+</svg>
