@@ -51,7 +51,7 @@
 - [Usage Guide](#-usage-guide)
 - [Technical Details](#-technical-details)
 - [Development](#-development)
-- [Building from Source](#-building-from-source)
+- [Building from Source](#building-from-source)
 - [Troubleshooting](#-troubleshooting)
 - [Contributing](#-contributing)
 - [License](#-license)
@@ -370,7 +370,7 @@ audioforge-pro/
 
 ---
 
-## 🏗️ Building from Source
+## Building from Source
 
 ### Build for Current Platform
 
@@ -566,7 +566,6 @@ copies of the Software...
 
 - **GitHub Issues**: [Report bugs or request features](https://github.com/rollins1338/audio-merger/issues)
 - **Developer**: [@rollins1338](https://github.com/rollins1338)
-- **Email**: support@audioforge.pro *(if available)*
 
 ---
 
